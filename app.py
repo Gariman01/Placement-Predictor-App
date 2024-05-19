@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Define the Flask API endpoint
-API_ENDPOINT = "http://127.0.0.1:5000/predict" # "https://placement-predictor-adt9.onrender.com/predict"
+API_ENDPOINT = "https://placement-predictor-adt9.onrender.com/predict"
 
 # Set the page configuration
 st.set_page_config(page_title = "Campus Placement Prediction", layout = "wide")
